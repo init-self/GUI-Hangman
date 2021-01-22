@@ -38,7 +38,7 @@ image_surfaces = [] # pygame generated list of all hangaman image's surface.
 # game variables
 status_code = 0 # the number of the image to be displayed while playing i.e if status_code is 0, '0.png' will be displayed
 letters = []
-words = "developer, hero, computer, science, user, artist, checker, blackboard, whiteboard".upper().split(sep= ",")
+words = "developer,hero,computer,science,user,artist,checker,blackboard,whiteboard".upper().split(sep= ",") # add your custom words the same way others are. 
 word = random.choice(words).strip()
 guessed = []    
 
